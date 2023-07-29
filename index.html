@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключение шрифтов -->
+    
+    <link rel="stylesheet" href="css/zeroing.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/popup-style.css" type="text/css">
+    <title>Сайт знакомств</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="header__inner">
+                
+            <!-- <img class="logo header_logo" src="img/logo/logo_1.png"  alt="photo"> -->
+
+            <a class="logo header__logo" href="#">
+                <img class="logo__logo" src="img/logo/logo_1.png"  alt="photo">
+            </a>
+
+            <!-- <img class="header_logo" src="../Сайт_знакомств/img/logo/logo_2.png"  alt="photo"> -->
+    
+            <!-- menu_link__come--in -->
+            <ul class="menu">
+                <li class="menu_link" id="myBtn_input">
+                    <a href="#">Войти</a>
+                </li>
+                <li class="menu_link" id="myBtn_reg">
+                    <a href="#">Регистрация</a>
+                </li>
+            </ul>
+            
+        </div><!-- /header_inner -->
+    </div><!-- /container -->
+</div><!-- /header -->
+
+<section class="section">
+    <div class="container">
+        <!-- пересмотреть  -->
+        <div class="content">
+            <div class="intro">
+                <div class="intro_inne">
+                    <h1 class="intro_title">Сайт знакомств</h1>
+                    <h2 class="intro_suptitle">Найди свою вторую половину</h2>
+                    <p class="intro_text">Тысячи счастливых мужчин и женщин обрели свою вторую половину <br> Главное – не прекращать поиски, пока вторая половина не будет найдена!</p>
+                </div>
+            
+                <!-- <div class="buttons">
+                    <button class="intro_button" id="#">Уже зарегистрированы?</button>
+                    <button class="intro_button" id="#">Войти на сайт</button>
+                </div> -->
+
+            </div><!-- /intro -->
+
+            <div class="slider">
+                <!-- <div class="slider_inner"> -->
+                    <div class="slider_eleps">
+                        <img class="slider_img" src="img/slides/slides_3.jpg">
+                        <!-- <img class="slider_img" src="img/slides/slides_2.jpg"> -->
+                    </div>
+                <!-- </div> -->
+            </div><!-- /slider -->
+        </div>
+    </div><!-- /container -->
+</section><!-- /section -->
+
+
+
+<!-- popup  -->
+<!-- popup-input -->
+<section class="section__popup" id="mypopup_input">
+    <div class="wrapper wrapper--img">
+        <span class="close close_input">&times;</span>
+        <div class="form__heading">
+            <div class="form__title">Вхід до особистого кабінету</div>
+        </div>
+        <form class="form" action="#" method="get" enctype="multipart/form-data">
+            <input class="form__input" type="tel" autocomplete="off" id="user_phone" name="user_phone" minlength="12" maxlength="19" placeholder="+380" required>
+            <input class="form__input" type="password" autocomplete="off" id="user_pass" name="user_pass" placeholder="Введіть пароль"  required>
+            <button class="form__button">Продовжити</button>
+        </form>
+        <div class="link">
+            <a class="linck__form">Забули пароль?</a>
+            <a class="linck__form">Зареєструватися</a>
+        </div>
+    </div><!-- /wrapper -->
+</section>
+
+<!-- popup-registration -->
+<section  class="section__popup" id="mypopup_reg">
+    <div class="wrapper">
+        <span class="close close_reg">&times;</span>
+        <div class="form__heading">
+            <div class="form__title">Заповни анкету</div>
+        </div>
+
+        <form class="form" action="#" method="get" enctype="multipart/form-data">
+            <input class="form__input" type="text" autocomplete="off" id="user_name" name="user_name" placeholder="Ваше ім'я" required>
+            <input class="form__input" type="email" autocomplete="off" id="user_Email" name="user_Email" placeholder="Ваш Email" required>
+            
+
+            <div class="gender">
+                <input checked type="radio" id="mans" name="gender" value="man">
+                <label class="mans" for="mans"></label>
+
+                <input type="radio" id="wymens" name="gender" value="wymen">
+                <label class="wymens" for="wymens"></label>
+            </div>
+
+            <span class="form__text">Знайомся з новими людьми вже зараз!</span>
+            <button class="form__button">Продовжити</button>
+        </form><!-- /form -->
+    </div><!-- /wrapper -->
+</section>
+
+
+<!-- <script src="js/app.js"></script> -->
+<script src="js/apps.js"></script>
+</body>
+</html>
+
+
+
+
+
